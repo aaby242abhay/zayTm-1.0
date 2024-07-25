@@ -1,7 +1,10 @@
 import React from 'react'
+import { MoneySend } from './MoneySend';
 
-export const SendMoney = () => {
+export const SendMoney = ({
+  userName
+}) => {
   return (
-    <div>SendMoney</div>
+    <MoneySend userName="Abhay" />
   )
 }

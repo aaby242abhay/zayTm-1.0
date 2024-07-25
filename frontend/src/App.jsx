@@ -2,6 +2,7 @@ import React from "react"
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom"
 import { Signin } from "./components/Signin"
 import { Signup } from "./components/Signup"
+import { SignupPage } from "./pages/SignupPage"
 import { SendMoney } from "./components/SendMoney"
 import { Dashboard } from "./components/Dashboard"
 

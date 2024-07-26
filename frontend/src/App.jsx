@@ -4,6 +4,7 @@ import { MyComponent } from "./components/MyComponent"
 import { IsOnline } from "./components/IsOnline";
 import  {MousePointer} from "./components/MousePointer";
 import { Timer } from "./components/Timer";
+import { DebounceRequests } from "./components/DebounceRequests";
 
 function App() {
 
@@ -29,8 +30,9 @@ function App() {
       {/* {render && <MyComponent />}
       <IsOnline />
       <MousePointer /> */}
-      <Timer />
-      
+      {/* <Timer /> */}
+      <DebounceRequests/>
+
     </>
   )
 }
